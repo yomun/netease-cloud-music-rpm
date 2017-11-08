@@ -39,7 +39,7 @@ ar xf "${DEBFILENAME}"
 tar xvf "data.tar.xz"
 
 mkdir -p "${SEMIDIR}"
-mv usr "${SEMIDIR}/"
+cp -r usr "${SEMIDIR}/"
 
 mkdir -p "${SEMIDIR}/usr/bin"
 rm -rf "${SEMIDIR}/usr/bin/netease-cloud-music"
