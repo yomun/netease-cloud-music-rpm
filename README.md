@@ -1,7 +1,8 @@
 # netease-cloud-music-rpm
 to make & generate netease-cloud-music RPM version<br><br>
 First, you need install..<br>
-Fedora: $ sudo dnf install rpm-build rpmrebuild rpmlint fakeroot<br><br>
+Fedora:<br>
+$ sudo dnf install rpm-build rpmrebuild rpmlint fakeroot<br><br>
 $ cd netease-cloud-music-rpm<br>
 $ bash build.sh<br><br>
 $ cd ~<br>
