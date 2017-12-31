@@ -7,8 +7,8 @@
 set -e
 set -x
 
-DEBFILENAME="netease-cloud-music_1.1.0_amd64_ubuntu.deb"
-# DEBFILENAME="netease-cloud-music_1.0.0-2_amd64_ubuntu16.04.deb"
+# DEBFILENAME="netease-cloud-music_1.1.0_amd64_ubuntu.deb"
+DEBFILENAME="netease-cloud-music_1.0.0-2_amd64_ubuntu16.04.deb"
 # DEBFILENAME="netease-cloud-music_1.0.0-2_i386_ubuntu16.04.deb"
 # DEBURL="http://s1.music.126.net/download/pc/${DEBFILENAME}"
 DEBURL="http://d1.music.126.net/dmusic/${DEBFILENAME}"
